@@ -4,9 +4,14 @@ using namespace std;
 
 int main()
 {
+    //Función: Este programa tiene como objetivo monstrar los diferentes tipos de variables en c++
+    //Autor:  daguilae
+    //Fecha de creación: 01 ene 2023
+    //Fecha de última modificación: 23 ene 2023
     int day = 03;
     int month = 11;
     int year = 1989;
+    int decada=2020;
 
     cout << "Naci el: ";
     cout << day << endl;
