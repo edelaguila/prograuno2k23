@@ -4,7 +4,7 @@
 #include <cstdlib>
 #include <math.h>
 
-using namespace std;
+    using namespace std;
 
 //Definición de prototipos
 void menuPrincipal();
