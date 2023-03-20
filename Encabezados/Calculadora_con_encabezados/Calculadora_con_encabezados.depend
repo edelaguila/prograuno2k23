@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1678291198 source:c:\users\visitante\proyectos\didactica2k23\prograuno2k23\encabezados\calculadora_con_encabezados\main.cpp
+	<iostream>
+	"UsoCalculadora.h"
+
+1678291198 c:\users\visitante\proyectos\didactica2k23\prograuno2k23\encabezados\calculadora_con_encabezados\include\usocalculadora.h
+
+1678291233 source:c:\users\visitante\proyectos\didactica2k23\prograuno2k23\encabezados\calculadora_con_encabezados\src\usocalculadora.cpp
+	"UsoCalculadora.h"
+	<iostream>
+	<cstdlib>
+	<math.h>
+
