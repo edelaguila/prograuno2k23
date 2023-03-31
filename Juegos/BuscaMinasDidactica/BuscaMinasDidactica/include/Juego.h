@@ -12,12 +12,13 @@ private:
 	int filaAleatoria();
 	int columnaAleatoria();
 public:
-	Juego(Tablero tablero, int cantidadMinas);
+    Juego(Tablero tablero, int cantidadMinas);
 	void colocarMinasAleatoriamente();
 	int solicitarFilaUsuario();
 	int solicitarColumnaUsuario();
 	bool jugadorGana();
 	void iniciar();
+	void dibujarPortada(string nombreArchivo);
 };
 
 #endif // JUEGO_H

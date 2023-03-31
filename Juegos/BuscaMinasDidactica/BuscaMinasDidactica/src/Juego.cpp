@@ -1,4 +1,6 @@
 #include "Juego.h"
+#include <fstream>
+#include <unistd.h>
 
 int Juego::aleatorio_en_rango(int minimo, int maximo)
 	{
@@ -14,6 +16,7 @@ int Juego::aleatorio_en_rango(int minimo, int maximo)
 	{
 		return this->aleatorio_en_rango(0, this->tablero.getAnchoTablero() - 1);
 	}
+
 	Juego::Juego(Tablero tablero, int cantidadMinas)
 	{
 		this->tablero = tablero;
@@ -90,4 +93,25 @@ int Juego::aleatorio_en_rango(int minimo, int maximo)
 				break;
 			}
 		}
+	}
+	void Juego::dibujarPortada(string nombreArchivo)
+	{
+        string line;
+        //char userInput = ' ';
+        ifstream myFile(nombreArchivo);
+        if(myFile.is_open())
+        {
+            //Se obtiene la portada del juego
+            while( getline(myFile, line))
+            {
+                cout << line << endl;
+            }
+            myFile.close();
+            system("pause");
+        }
+        else
+        {
+            cout << "Error FATAL: el archivo de portada no pudo ser cargado" << endl;
+            system("pause");
+        }
 	}

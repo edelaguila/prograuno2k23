@@ -13,7 +13,8 @@ int main()
     const bool MODODESARROLLADOR = true;
     const int VIDASTABLERO = 3;
     Config configuracionJuego(FILASTABLERO, COLUMNASTABLERO, MINASENTABLERO, MODODESARROLLADOR, VIDASTABLERO);
-
+    Juego juego(Tablero(configuracionJuego.getfilasTablero(), configuracionJuego.getcolumnasTablero(), configuracionJuego.getmodoDesarrolladorTablero()), configuracionJuego.getminasTablero());
+    juego.dibujarPortada("portada.txt");
     srand(getpid());
     int opciones;
     bool repetir = true;
@@ -36,8 +37,9 @@ int main()
             }
         case 2:
             {
-              	Juego juego(Tablero(configuracionJuego.getfilasTablero(), configuracionJuego.getcolumnasTablero(), configuracionJuego.getmodoDesarrolladorTablero()), configuracionJuego.getminasTablero());
-                juego.iniciar();
+              	Juego juegoTemporal(Tablero(configuracionJuego.getfilasTablero(), configuracionJuego.getcolumnasTablero(), configuracionJuego.getmodoDesarrolladorTablero()), configuracionJuego.getminasTablero());
+                juegoTemporal.iniciar();
+
                 system("pause");
                 break;
             }
@@ -45,5 +47,7 @@ int main()
                 break;
         }
     } while (repetir);
+    system("cls");
+    juego.dibujarPortada("creditos.txt");
     return 0;
 }

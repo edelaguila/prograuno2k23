@@ -1,14 +1,15 @@
 # depslib dependency file v1.0
-1680094554 source:c:\users\visitante\proyectos\didactica2k23\prograuno2k23\juegos\buscaminasdidactica\buscaminasdidactica\main.cpp
+1680274918 source:c:\users\visitante\proyectos\didactica2k23\prograuno2k23\juegos\buscaminasdidactica\buscaminasdidactica\main.cpp
 	<iostream>
 	<unistd.h>
 	"Juego.h"
 	"Config.h"
 
-1679290166 source:c:\users\visitante\proyectos\didactica2k23\prograuno2k23\juegos\buscaminasdidactica\buscaminasdidactica\src\juego.cpp
+1680274797 source:c:\users\visitante\proyectos\didactica2k23\prograuno2k23\juegos\buscaminasdidactica\buscaminasdidactica\src\juego.cpp
 	"Juego.h"
+	<fstream>
 
-1679290952 c:\users\visitante\proyectos\didactica2k23\prograuno2k23\juegos\buscaminasdidactica\buscaminasdidactica\include\juego.h
+1680274797 c:\users\visitante\proyectos\didactica2k23\prograuno2k23\juegos\buscaminasdidactica\buscaminasdidactica\include\juego.h
 	"Tablero.h"
 
 1679292869 source:c:\users\visitante\proyectos\didactica2k23\prograuno2k23\juegos\buscaminasdidactica\buscaminasdidactica\src\tablero.cpp
@@ -54,10 +55,10 @@
 	<sstream>
 	<iostream>
 
-1680102584 source:c:\users\visitante\proyectos\didactica2k23\prograuno2k23\juegos\buscaminasdidactica\buscaminasdidactica\src\config.cpp
+1680103073 source:c:\users\visitante\proyectos\didactica2k23\prograuno2k23\juegos\buscaminasdidactica\buscaminasdidactica\src\config.cpp
 	<iostream>
 	<unistd.h>
 	"Config.h"
 
-1680102584 c:\users\visitante\proyectos\didactica2k23\prograuno2k23\juegos\buscaminasdidactica\buscaminasdidactica\include\config.h
+1680103073 c:\users\visitante\proyectos\didactica2k23\prograuno2k23\juegos\buscaminasdidactica\buscaminasdidactica\include\config.h
 
