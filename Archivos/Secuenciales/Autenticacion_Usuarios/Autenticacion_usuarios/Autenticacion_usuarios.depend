@@ -1,0 +1,16 @@
+# depslib dependency file v1.0
+1681314486 source:e:\gerizim\proyectos\didactica2k23\temporal\prograuno2k23\archivos\secuenciales\autenticacion_usuarios\autenticacion_usuarios\main.cpp
+	<iostream>
+	<fstream>
+	"usuarios.h"
+
+1681311582 e:\gerizim\proyectos\didactica2k23\temporal\prograuno2k23\archivos\secuenciales\autenticacion_usuarios\autenticacion_usuarios\include\usuarios.h
+	<iostream>
+
+1681310422 source:e:\gerizim\proyectos\didactica2k23\temporal\prograuno2k23\archivos\secuenciales\autenticacion_usuarios\autenticacion_usuarios\src\usuarios.cpp
+	"usuarios.h"
+	<fstream>
+	<cstdlib>
+	<conio.h>
+	<iostream>
+

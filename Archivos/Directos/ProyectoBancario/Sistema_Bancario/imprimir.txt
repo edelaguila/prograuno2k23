@@ -1,0 +1,7 @@
+Cuenta    Apellido        Primer nombre      Saldo
+1         Lopez           Carlos           5000.00
+2         Ruiz            Luis              500.50
+3         Mendez          Luis             2000.00
+4         Torres          Antonio         49999.50
+50        Martinez        Jaime            1000.00
+100       Mejia           Mario           10000.00
