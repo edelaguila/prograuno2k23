@@ -1,7 +1,5 @@
 #include <iostream>
-//#include "jugador.h"
-//#include "celdas.h"
-//#include "mapajuego.h"
+
 
 using namespace std;
 
