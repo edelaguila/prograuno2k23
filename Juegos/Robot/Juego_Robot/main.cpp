@@ -1,11 +1,5 @@
 #include <iostream>
-<<<<<<< HEAD
-
-=======
 #include "jugador.h"
-//#include "celdas.h"
-//#include "mapajuego.h"
->>>>>>> agregando_controles
 
 using namespace std;
 
