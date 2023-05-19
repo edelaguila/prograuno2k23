@@ -37,3 +37,11 @@ void jugador::manejoControles()
     }
     cout << "El jugador esta en el las coordenadas --> " << " X = " << x << " Y = " << y << endl;
 }
+int jugador::getX()
+{
+    return x;
+}
+int jugador::getY()
+{
+    return y;
+}

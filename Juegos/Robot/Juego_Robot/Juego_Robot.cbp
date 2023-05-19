@@ -34,9 +34,13 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="include/celdaMapa.h" />
 		<Unit filename="include/jugador.h" />
+		<Unit filename="include/mapa.h" />
 		<Unit filename="main.cpp" />
+		<Unit filename="src/celdaMapa.cpp" />
 		<Unit filename="src/jugador.cpp" />
+		<Unit filename="src/mapa.cpp" />
 		<Extensions>
 			<lib_finder disable_auto="1" />
 		</Extensions>
