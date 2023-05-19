@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1684508715 source:c:\users\soporte\documents\umg\didactica2k23\clases\prograuno2k23\juegos\robot\juego_robot\main.cpp
+	<iostream>
+	"jugador.h"
+
+1684508258 c:\users\soporte\documents\umg\didactica2k23\clases\prograuno2k23\juegos\robot\juego_robot\include\jugador.h
+
+1684508384 source:c:\users\soporte\documents\umg\didactica2k23\clases\prograuno2k23\juegos\robot\juego_robot\src\jugador.cpp
+	"jugador.h"
+	<iostream>
+
