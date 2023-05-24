@@ -1,0 +1,47 @@
+# depslib dependency file v1.0
+1684512272 source:c:\users\soporte\documents\umg\didactica2k23\clases\prograuno2k23\juegos\robot\juego_robot\main.cpp
+	<iostream>
+	"jugador.h"
+	"mapa.h"
+
+1684512669 c:\users\soporte\documents\umg\didactica2k23\clases\prograuno2k23\juegos\robot\juego_robot\include\jugador.h
+
+1684512669 source:c:\users\soporte\documents\umg\didactica2k23\clases\prograuno2k23\juegos\robot\juego_robot\src\jugador.cpp
+	"jugador.h"
+	<iostream>
+
+1684511674 source:c:\users\soporte\documents\umg\didactica2k23\clases\prograuno2k23\juegos\robot\juego_robot\src\celdamapa.cpp
+	"celdaMapa.h"
+
+1684510678 c:\users\soporte\documents\umg\didactica2k23\clases\prograuno2k23\juegos\robot\juego_robot\include\celdamapa.h
+
+1684512272 c:\users\soporte\documents\umg\didactica2k23\clases\prograuno2k23\juegos\robot\juego_robot\include\mapa.h
+	"celdaMapa.h"
+
+1684512427 source:c:\users\soporte\documents\umg\didactica2k23\clases\prograuno2k23\juegos\robot\juego_robot\src\mapa.cpp
+	"mapa.h"
+	<iostream>
+
+1684513314 source:c:\users\soporte\documents\umg\didactica2k23\clases\prograuno2k23\juegos\robot - prototipo\juego_robot\main.cpp
+	<iostream>
+	"jugador.h"
+	"mapa.h"
+
+1684513314 c:\users\soporte\documents\umg\didactica2k23\clases\prograuno2k23\juegos\robot - prototipo\juego_robot\include\jugador.h
+
+1684513314 c:\users\soporte\documents\umg\didactica2k23\clases\prograuno2k23\juegos\robot - prototipo\juego_robot\include\mapa.h
+	"celdaMapa.h"
+
+1684513314 c:\users\soporte\documents\umg\didactica2k23\clases\prograuno2k23\juegos\robot - prototipo\juego_robot\include\celdamapa.h
+
+1684513314 source:c:\users\soporte\documents\umg\didactica2k23\clases\prograuno2k23\juegos\robot - prototipo\juego_robot\src\celdamapa.cpp
+	"celdaMapa.h"
+
+1684513314 source:c:\users\soporte\documents\umg\didactica2k23\clases\prograuno2k23\juegos\robot - prototipo\juego_robot\src\jugador.cpp
+	"jugador.h"
+	<iostream>
+
+1684513314 source:c:\users\soporte\documents\umg\didactica2k23\clases\prograuno2k23\juegos\robot - prototipo\juego_robot\src\mapa.cpp
+	"mapa.h"
+	<iostream>
+
